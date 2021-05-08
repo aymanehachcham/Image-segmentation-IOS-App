@@ -10,20 +10,26 @@
 		5B0114722631A655006E34A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0114712631A655006E34A9 /* AppDelegate.swift */; };
 		5B0114742631A655006E34A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0114732631A655006E34A9 /* SceneDelegate.swift */; };
 		5B0114762631A655006E34A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0114752631A655006E34A9 /* ViewController.swift */; };
-		5B0114792631A655006E34A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0114772631A655006E34A9 /* Main.storyboard */; };
 		5B01147B2631A656006E34A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B01147A2631A656006E34A9 /* Assets.xcassets */; };
 		5B01147E2631A656006E34A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B01147C2631A656006E34A9 /* LaunchScreen.storyboard */; };
+		5B0114892639904B006E34A9 /* ColorizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0114882639904B006E34A9 /* ColorizeButton.swift */; };
+		5B01148C2639AF81006E34A9 /* ImageSegmetationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01148B2639AF81006E34A9 /* ImageSegmetationViewController.swift */; };
+		F6E51D38718C96D2300BF56D /* Pods_Colorize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B967FD65688050D1A792AAE1 /* Pods_Colorize.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FB3689543427E28374DA298 /* Pods-Colorize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorize.debug.xcconfig"; path = "Target Support Files/Pods-Colorize/Pods-Colorize.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE427431AC7A728D9C3C1CD /* Pods-Colorize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorize.release.xcconfig"; path = "Target Support Files/Pods-Colorize/Pods-Colorize.release.xcconfig"; sourceTree = "<group>"; };
 		5B01146E2631A655006E34A9 /* Colorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0114712631A655006E34A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B0114732631A655006E34A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5B0114752631A655006E34A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B0114782631A655006E34A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B01147A2631A656006E34A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B01147D2631A656006E34A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B01147F2631A656006E34A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0114882639904B006E34A9 /* ColorizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeButton.swift; sourceTree = "<group>"; };
+		5B01148B2639AF81006E34A9 /* ImageSegmetationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSegmetationViewController.swift; sourceTree = "<group>"; };
+		B967FD65688050D1A792AAE1 /* Pods_Colorize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colorize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E51D38718C96D2300BF56D /* Pods_Colorize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				5B0114702631A655006E34A9 /* Colorize */,
 				5B01146F2631A655006E34A9 /* Products */,
+				F99A9C966C3B1E8D8ABD2828 /* Pods */,
+				9975521487D85784C20AAC64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,31 @@
 				5B0114712631A655006E34A9 /* AppDelegate.swift */,
 				5B0114732631A655006E34A9 /* SceneDelegate.swift */,
 				5B0114752631A655006E34A9 /* ViewController.swift */,
-				5B0114772631A655006E34A9 /* Main.storyboard */,
 				5B01147A2631A656006E34A9 /* Assets.xcassets */,
 				5B01147C2631A656006E34A9 /* LaunchScreen.storyboard */,
 				5B01147F2631A656006E34A9 /* Info.plist */,
+				5B0114882639904B006E34A9 /* ColorizeButton.swift */,
+				5B01148B2639AF81006E34A9 /* ImageSegmetationViewController.swift */,
 			);
 			path = Colorize;
+			sourceTree = "<group>";
+		};
+		9975521487D85784C20AAC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B967FD65688050D1A792AAE1 /* Pods_Colorize.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F99A9C966C3B1E8D8ABD2828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3689543427E28374DA298 /* Pods-Colorize.debug.xcconfig */,
+				4CE427431AC7A728D9C3C1CD /* Pods-Colorize.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B0114822631A656006E34A9 /* Build configuration list for PBXNativeTarget "Colorize" */;
 			buildPhases = (
+				7036D4279B52F3373CB99BBB /* [CP] Check Pods Manifest.lock */,
 				5B01146A2631A655006E34A9 /* Sources */,
 				5B01146B2631A655006E34A9 /* Frameworks */,
 				5B01146C2631A655006E34A9 /* Resources */,
+				0B60AC544966FC03A3FBB684 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +156,52 @@
 			files = (
 				5B01147E2631A656006E34A9 /* LaunchScreen.storyboard in Resources */,
 				5B01147B2631A656006E34A9 /* Assets.xcassets in Resources */,
-				5B0114792631A655006E34A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B60AC544966FC03A3FBB684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colorize/Pods-Colorize-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colorize/Pods-Colorize-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colorize/Pods-Colorize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7036D4279B52F3373CB99BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colorize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B01146A2631A655006E34A9 /* Sources */ = {
@@ -138,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0114762631A655006E34A9 /* ViewController.swift in Sources */,
+				5B01148C2639AF81006E34A9 /* ImageSegmetationViewController.swift in Sources */,
 				5B0114722631A655006E34A9 /* AppDelegate.swift in Sources */,
+				5B0114892639904B006E34A9 /* ColorizeButton.swift in Sources */,
 				5B0114742631A655006E34A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B0114772631A655006E34A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B0114782631A655006E34A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B01147C2631A656006E34A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +348,7 @@
 		};
 		5B0114832631A656006E34A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB3689543427E28374DA298 /* Pods-Colorize.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +367,7 @@
 		};
 		5B0114842631A656006E34A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE427431AC7A728D9C3C1CD /* Pods-Colorize.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
